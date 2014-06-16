@@ -27,10 +27,11 @@ title: Hot Glass
     <div id="title" class="title_text">
       <h3>A FANTASTIC ENGAGING HEADLINE GOES HERE</h3>
     </div>
-    <div id="blogger" class="blogger">
-       <img src="/images/Crystal_Baller2.png" />
-       <span id="blogger_name">Crystal Baller</span>
-       <span id="blog_date">on Monday, June 7th 9:22pm</span>
+    <div id="blogger_image" class="blogger_image1">
+      <img src="/images/Crystal_Baller2.png" width="50px" height="50px" />
+      <div id= "blogger_title" class="blogger_links_title">
+        <h4>Crystal Baller on Monday, June 7th 9:22pm</h4>
+      </div>
     </div>
     <p>
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -40,8 +41,10 @@ title: Hot Glass
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
     incididunt ut labore et <a href="http.//url">dolore magna aliqua.</a>
 
-    <div id="quote_text">
+    <div id="divider_bar_for_quote">
+      <div id="quote_text">
         <h3>"This is a pull quote from the article."</h3>
+      </div>
     </div>
     <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -56,62 +59,69 @@ title: Hot Glass
     cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet,
     consectetur adipisicing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua.
-    <ul id="blog_post_link" class="bar_list">
+    <ul class="bar_list">
       <li class="bar_item">
-        <a href="read_comments.html">
-	  <img src="/images/comment-simple-red-square-icon-symbols-shapes-comment-bubbles.png" class="icon"/>
-	  Read Comments
-	</a>
+        Read Comments<img src="/images/comment-simple-red-square-icon-symbols-shapes-comment-bubbles.png" class="icon"/>
       </li>
       <li class="bar_item">
-	<a href="read_later.html">
-          <img src="/images/read_later_chair.jpeg" class="icon"/>
-	  Read Later
-	</a>
+        Read Later <img src="/images/read_later_chair.jpeg" class="icon"/>
       </li>
       <li class="bar_item">
-	<a href="read_later.html">
-         <img src="/images/share_icon.jpeg" class="icon"/>
-	 Share This Post
-	</a>
+        Share This Post <img src="/images/share_icon.jpeg" class="icon"/>
       </li>
     </ul>
   </div>
   <div id= "sidebar_box" class="right">
-    <div id= "blogger" class="blogging"align="center">
+    <div id= "blogger" class="blogging">
       <div id="blogger_image" class="blogger_image1">
-        <img src="/images/Crystal_Baller2.png" />
+        <img src="/images/Crystal_Baller2.png" width="50px" height="50px" />
       </div>
       <div id= "blogger_title" class="blogger_links_title">
-        <h4p>Crystal Baller</h4>
+        <p>Crystal Baller
       </div>
-      <ul id="blogger_list" class="bar_list" >
-        <li class="blogger_bar_item">
-          <a href="http://www.twitter.com">Twitter</a>
+      <ul class="bar_list" >
+        <li class="bar_item">
+          Twitter
         </li>
-        <li class="blogger_bar_item">
-          <a href="http://www.facebook.com">Facebook</a>
+        <li class="bar_item">
+          Facebook
         </li>
-        <li class="blogger_bar_item">
-          <a href="http://www.instagram.com">Instagram</a>
+        <li class="bar_item">
+          Instagram
         </li>
       </ul>
     </div>
-    <div id="advertisment">
-      <div id="advertisement_box">
-	<img src="/images/advertisement_image.jpg"/>
-	<div id="advertisement_text" align="right">
-          <h7><a href="/about_ad.html">About this Ad</a></h7>
-	</div>
+    <div id="ad_image">
+      <img src="/images/ad_image.jpeg" class="ad_image"/>
+      <div id="ad_text">
+        <h7>About this Ad</h7>
       </div>
     </div>
     <div id="sidebar_title">
       <h5>Sidebar Section Heading</h5>
-      <div id="sidebar_text">
-	<p>
-	  Four score and seven years ago our fathers brought forth, on this continent, a new nation,
-	  conceived in Liberty, and dedicated to the proposition that all men are created equal.
-      </div>
+    </div>
+    <div id="sidebar_text">
+      <p>
+      Four score and seven years ago our fathers brought forth, on this continent, a new nation,
+      conceived in Liberty, and dedicated to the proposition that all men are created equal.
+      <p>
+      Now we are engaged in a great civil war, testing whether that nation, or any nation so
+      conceived, and so dedicated, can long endure. We are met on a great battle-field of
+      that war. We have come to dedicate a portion of that field, as a final resting-place
+      for those who here gave their lives, that that nation might live. It is altogether
+      fitting and proper that we should do this.
+      <p>
+      But, in a larger sense, we can not dedicate, we can not consecrate – we can not hallow
+      – this ground. The brave men, living and dead, who struggled here, have consecrated it
+      far above our poor power to add or detract. The world will little note, nor long remember
+      what we say here, but it can never forget what they did here. It is for us the living,
+      rather, to be dedicated here to the unfinished work which they who fought here have thus
+      far so nobly advanced. It is rather for us to be here dedicated to the great task remaining
+      before us – that from these honored dead we take increased devotion to that cause for which
+      they here gave the last full measure of devotion - that we here highly resolve that these
+      dead shall not have died in vain – that this nation, under God, shall have a new birth of
+      freedom, and that government of the people, by the people, for the people, shall not
+      perish from the earth.
     </div>
   </div>
 </div>
@@ -119,24 +129,24 @@ title: Hot Glass
 <div id= "post_box" class="posts" style="clear: both;">
   <div id="post_box_title" align="center" class="post_links_box_title">
     <h4>Most Popular Posts</h4></div>
-  <ul id="post_links_box">
-    <li class="post_link">
+  <div id+"post_links_box">
+    <span id="post_link_1" class="post_link">
       <!-- Go With the Flow -->
-      <img src="/images/Blog_Post_Img_1.jpg" " />
-    </li>
-    <li class="post_link">
+      <img src="/images/Blog_Post_Img_1.jpg" width="24%" height="320px" />
+    </span>
+    <span id="post_link_2" class="post_link">
       <!-- Tizz Ausome: Glass-o-rama -->
-      <img src="/images/Blog_Post_2.jpg" " />
-    </li>
-    <li class="post_link">
+      <img src="/images/Blog_Post_2.jpg" width="24%" height="320px" />
+    </span>
+    <span id="post_link_3" class="post_link">
       <!-- Bored of Frustration -->
-      <img src="/images/Blogger-image-john-e-bannon_bored-of-frustration.jpg"" />
-    </li>
-    <li class="post_link">
+      <img src="/images/Blogger-image-john-e-bannon_bored-of-frustration.jpg" width="24%" height="320px" />
+    </span>
+    <span id="post_link_4" class="post_link">
       <!-- Garden of Artful Delights -->
-      <img src="/images/Garden_of_Artful_Delights_Ad.jpg"  />
-    </li>
-  </ul>
+      <img src="/images/Garden_of_Artful_Delights_Ad.jpg" width="24%" height="320px" />
+    </span>
+  </div>
 </div>
 
 <div id="footer" class="bgd">
